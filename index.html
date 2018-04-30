@@ -12,6 +12,9 @@
   <body>
         <div id="container">
             <h3>Written Work</h3>
+
+            <p><a href="https://arxiv.org/abs/1802.07182">GPAR</a> is a multi-output Gaussian process-based regression model. It's simple, scalable by GP standards, and seems to work really well in practice. At the time of writing we haven't published our code (it's a mess), but there is <a href=https://gist.github.com/vdutor/0c720e1399e6bf7eae5c2bf32cdfb47d>this gist</a> which provides a partial reproduction.</p>
+
             <p><a href="mphil_thesis.html">MPhil Thesis</a> on approximate variational inference in Gaussian processes when there is circulant structure present in the pseudo-point covariance matrix. The corresponding <a href="mphil_poster.html">poster</a> was presented to the course's industrial sponsors.</p>
             <p>An <a href=aabi_2016_paper.html>extension</a> of the above MPhil thesis was accepted for <a href="aabi_2016_poster.html">poster presentation</a> at the NIPS workshop on Advances in Approximate Bayesian Inference (Barcelona, 2016).</p>
 
@@ -20,7 +23,15 @@
             <p><a href="resources/learning-to-learn.pdf">Learning to Learn</a>: a presentation written and presented jointly with <a href="http://mlg.eng.cam.ac.uk/?portfolio=siddharth-swaroop">Siddharth Swaroop</a>. Here we review a couple of themes in the nebulously-defined sub-field of ML known as "Learning to Learn" or "Meta-Learning". This presentation is not intended to provide extensive detail for any particular work, but rather to frame two research themes in the area of Learning to Learn in a concise manner.</p>
 
             <h3>(Public) Implementations</h3>
-            <p><a href="https://www.github.com/invenia/Nabla.jl">Nabla.jl</a> is a Reverse-Mode automatic differentiation (RMAD) package written in Julia, of which I am the primary author. The majority of the initial implementation of this package was undertaken in the first half of 2017 whilst working for Invenia Labs (Cambridge, UK), but development is on-going. We have focused on optimising linear algebra (e.g. chol, (log)det, \, / etc) and higher-order functions (e.g. broadcast, map, mapreduce etc) as these have not yet received as much attention in the Julia community as would be ideal. There is an on-going effort in the Julia community to improve native Julia support and to converge upon a single native RMAD package; it is my hope that the distinct aspects of Nabla.jl will be able to be incorporated into this package.</p>
+            <ul>
+                <li><a href="https://www.github.com/invenia/Nabla.jl">Nabla.jl</a> is a Reverse-Mode automatic differentiation (RMAD) package written in Julia, of which I am the primary author. The majority of the initial implementation of this package was undertaken in the first half of 2017 whilst working for Invenia Labs (Cambridge, UK), but development is on-going. We have focused on optimising linear algebra (e.g. chol, (log)det, \, / etc) and higher-order functions (e.g. broadcast, map, mapreduce etc) as these have not yet received as much attention in the Julia community as would be ideal. There is an on-going effort in the Julia community to improve native Julia support and to converge upon a single native RMAD package; to assist with this effort Wessel and I have separated out the distinct aspects of Nabla.jl into two separate packages:
+                <ul>
+                    <li><a href=https://github.com/invenia/FDM.jl>FDM.jl</a> (primarily Wessel's work) contains all of the finite-differencing functionality that we use for testing our reverse-mode sensitivity implementations.</li>
+                    <li><a href=https://github.com/invenia/DiffLinearAlgebra.jl>DiffLinearAlgebra</a> (primarily my work) contains all of the linear-algebra sensitivities we wrote. One can import these in a similar manner to the way one can import gradient expressions from <a href=https://github.com/JuliaDiff/DiffRules.jl>DiffRules.jl</a>.</li>
+                </ul></li>
+                <li><a href=https://github.com/willtebbutt/NormalisingFlows.jl>NormalisingFlows.jl</a> is a WIP that I pulled together to work with Normalising Flows (see <a href="https://projecteuclid.org/euclid.cms/1266935020">this</a> and <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.21423">this</a> and <a href=https://arxiv.org/abs/1505.05770>this</a>). It basically works for simple problems / models, but I've not really tried it out on large problems. There's quite a lot to be done here, and I intend to return to it at some point soon.
+                </li>
+            </ul>
         </div>
     </body>
 </html>
