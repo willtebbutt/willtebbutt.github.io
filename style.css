@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+ul, ol {
+    margin: 0em;
+    padding: 1.5em;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     size: 16;
