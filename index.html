@@ -15,31 +15,21 @@
 
             <p>The above feeds directly into my work on probabilistic machine learning in climate science, which addresses combining the predictions of ensembles of GCMs in a sensible way, and the requirements that this task places on statistical weather modelling.</p>
 
+
             <h3>Written Work</h3>
 
             <p>Gaussian process probabilistic programming (GPPP) is a term I've coined for the work I'm doing to re-design the way that we work with GPs in a practical sense. There will be a substantial technical report available here soon explaining what this is all about. In the mean time, I presented the high-level aspects of this work at <a href="resources/gppp_probprog.pdf">ProbProg</a> and <a href="resources/gppp_juliacon.pdf">JuliaCon</a>.
 
             <p><a href="https://arxiv.org/abs/1802.07182">GPAR</a> is a multi-output Gaussian process-based regression model. It's simple, scalable by GP standards, and seems to work really well in practice. It has been accepted to AISTATS 2019, and you can find a Python implementation of the key results <a href="https://github.com/wesselb/gpar">here</a>.</p>
-<!-- 
-            <p><a href="mphil_thesis.html">MPhil Thesis</a> on approximate variational inference in Gaussian processes when there is circulant structure present in the pseudo-point covariance matrix. The corresponding <a href="mphil_poster.html">poster</a> was presented to the course's industrial sponsors.</p>
-            <p>An <a href=aabi_2016_paper.html>extension</a> of the above MPhil thesis was accepted for <a href="aabi_2016_poster.html">poster presentation</a> at the NIPS workshop on Advances in Approximate Bayesian Inference (Barcelona, 2016).</p> -->
 
-    <!--         <h3>Presentations</h3>
+            <p>The <a href="https://arxiv.org/pdf/1911.06287.pdf">OILMM</a> is another multi-output Gaussian process model for regression, that's easily able to handle a lot of outputs while retaining exact inference -- Wessel came up with the main idea and I contributed the link between it and separable spatio-temporal processes, and ideas for experiments. It appeared at ICML 2020, and you can find a Python implementation of the model <a href="https://github.com/wesselb/oilmm">here</a>, and a Julia implementation <a href="https://github.com/willtebbutt/OILMMs.jl">here</a>.</p>
 
-            <p><a href="resources/gaussian-affine-posterior.pdf">Conditioning in Gaussians is an Affine Transform</a>. A (very) short presentation on a cute result that I initially found surprising. This presentation is rather terse, but the GPPP work discussed above relies on it, so a more thorough explanation of this result will be available when that work is available. Many thanks to <a href="https://wesselb.github.io/">Wessel Bruinsma</a> for sanity checking this result.</p>
-            <p><a href="resources/learning-to-learn.pdf">Learning to Learn</a>: a presentation written and presented jointly with <a href="http://mlg.eng.cam.ac.uk/?portfolio=siddharth-swaroop">Siddharth Swaroop</a>. Here we review a couple of themes in the nebulously-defined sub-field of ML known as "Learning to Learn" or "Meta-Learning". This presentation is not intended to provide extensive detail for any particular work, but rather to frame two research themes in the area of Learning to Learn in a concise manner.</p> -->
 
             <h3>Implementations</h3>
 
-            <p><a href="https://github.com/willtebbutt/Stheno.jl">Stheno.jl</a> is a Julia implementation of my GPPP work. It's a WIP, but makes working with GPs in problems involving multiple related processes signficantly more straightforward than traditional GP packages.</p>
+            <p><a href="https://github.com/willtebbutt/Stheno.jl">Stheno.jl</a> is a Julia implementation of my GPPP work. It's a WIP, but makes working with GPs in problems involving multiple related processes signficantly more straightforward than traditional GP packages. I gave a <a href="https://www.youtube.com/watch?v=OO3BBkGEMV8">talk</a> on it at JuliaCon 2019, the slides for which you can find <a href="resources/stheno_juliacon_2019.pdf">here</a></p>
 
-            <p><a href="resources/stheno_juliacon_2019.pdf">JuliaCon 2019 Slides</a></p>
-            <p><a href="https://www.youtube.com/watch?v=OO3BBkGEMV8">JuliaCon 2019 Presentation</a>
-
-<!--             <h3>Misc.</h3>
-
-            <p><a href="https://gabrielarpino.github.io/">Gabriel Arpino</a> produced the following excellent gif while working at Invenia Labs:</p>
-            <p><img src="resources/gp.gif"></p> -->
+            <p>I'm giving a talk on my package <a href="https://github.com/willtebbutt/TemporalGPs.jl/">TemporalGPs.jl</a> at JuliaCon 2020. You can find the slides <a href="resources/juliacon-2020.pdf">here</a>.</p>
         </div>
     </body>
 </html>
