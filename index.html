@@ -20,6 +20,26 @@
 
             <h3>Research Highlights</h3>
 
+            <h4>Combining Pseudo-Point and State Space Approximations for Sum-Separable Gaussian Processes</h4>
+
+            <p>
+                <a href="https://arxiv.org/abs/2106.10210">This work</a> shows how to combine pseudo-point (a.k.a sparse, inducing point, etc) and state space
+                approximations for GPs -- this is a good idea because they have
+                complementary strengths and weaknesses, and doing so provides the best of
+                both worlds.
+                In this work we showed that combining them is remarkably simple, and provide
+                straightforward-to-implement methods for approximate learning and inference.
+                The rather surprising result is that the "obvious" to do turns out to be
+                exactly the right thing to (in a specific sense), shining light on earlier
+                work.
+                Appeared at UAI 2021.
+            </p>
+
+            <p>
+                Julia implementation of the technique available in <a href="https://github.com/willtebbutt/TemporalGPs.jl/">TemporalGPs.jl</a> (see examples).
+                Code to reproduce experiments available <a href="https://github.com/willtebbutt/PseudoPointStateSpace-UAI-2021">here</a>.
+            </p>
+
             <h4>Gaussian Process Probabilistic Programming</h4>
 
             <p>Gaussian process probabilistic programming (GPPP) is a term I've coined for the work I'm doing to re-design the way that we work with GPs in a practical sense. I presented the high-level aspects of this work at <a href="resources/gppp_probprog.pdf">ProbProg</a> and <a href="resources/gppp_juliacon.pdf">JuliaCon</a>, and continue to work on a paper.
