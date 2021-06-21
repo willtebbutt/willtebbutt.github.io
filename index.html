@@ -25,13 +25,18 @@
             <p>
                 <a href="https://arxiv.org/abs/2106.10210">This work</a> shows how to combine pseudo-point (a.k.a sparse, inducing point, etc) and state space
                 approximations for GPs -- this is a good idea because they have
-                complementary strengths and weaknesses, and doing so provides the best of
-                both worlds.
+                complementary strengths and weaknesses, and combining them yields the benefits
+                of both approximations.
                 In this work we showed that combining them is remarkably simple, and provide
                 straightforward-to-implement methods for approximate learning and inference.
-                The rather surprising result is that the "obvious" to do turns out to be
-                exactly the right thing to (in a specific sense), shining light on earlier
-                work.
+                It's not a priori obvious how to do this in a principled way -- and our main
+                contribution is showing that, due to a little-known existing result, the
+                "right" way to do this is the "obvious" one.
+                We specifically show how to do this using the widely-favoured variational
+                pseudo-point approximation, but our result generalises to other flavours of
+                pseudo-point approximation.
+                In particular, our work shines a new light on older work that constructed a
+                very similar approximation using FITC.
                 Appeared at UAI 2021.
             </p>
 
