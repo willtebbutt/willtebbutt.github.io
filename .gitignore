@@ -1,2 +1,4 @@
+__site/
 .DS_Store
-*.dropbox.attr
+node_modules/
+package-lock.json
