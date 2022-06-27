@@ -1,3 +1,5 @@
+@def title = "About"
+
 # About
 
 I'm a PhD student in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/) at Cambridge, supervised by [Rich Turner](http://learning.eng.cam.ac.uk/Public/Turner/WebHome).
