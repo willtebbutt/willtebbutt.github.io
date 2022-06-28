@@ -23,12 +23,16 @@ Appeared at UAI 2021.
 Julia implementation of the technique available in [TemporalGPs.jl](https://github.com/willtebbutt/TemporalGPs.jl/) (see examples).
 Code to reproduce experiments available [here](https://github.com/willtebbutt/PseudoPointStateSpace-UAI-2021).
 
+![An image](/assets/combining_pseudo_points_example.png)
+
 ## Gaussian Process Probabilistic Programming
 
 Gaussian process probabilistic programming (GPPP) is a term I've coined for the work I'm doing to re-design the way that we work with GPs in a practical sense.
 I presented the high-level aspects of this work at [ProbProg](resources/gppp_probprog.pdf) and [JuliaCon](resources/gppp_juliacon.pdf), and continue to work on a paper.
 
 Implementations available in [Julia](https://github.com/willtebbutt/Stheno.jl) and [Python](https://github.com/wesselb/stheno).
+
+![An image](/assets/vanilla_noisy_regression_biased.png)
 
 ## GPAR
 [GPAR](https://proceedings.mlr.press/v89/requeima19a.html) is a multi-output Gaussian process-based regression model.
@@ -37,6 +41,8 @@ In particular it overcomes some of the limitations of standard multi-output GPs.
 It appeared at AISTATS 2019.
 
 Implementations available in [Python](https://github.com/wesselb/gpar) and [Julia](https://github.com/willtebbutt/GPARs.jl/).
+
+![An image](/assets/eeg_prediction.png)
 
 ## The OILMM
 The [OILMM](http://proceedings.mlr.press/v119/bruinsma20a.html) is another multi-output Gaussian process model for regression that's easily able to handle a lot of outputs while retaining exact inference. 
