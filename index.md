@@ -1,5 +1,3 @@
-@def title = "About"
-
 # About
 
 I'm a researcher at Invenia labs.
