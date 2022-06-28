@@ -2,7 +2,8 @@
 
 # About
 
-I'm a PhD student in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/) at Cambridge, supervised by [Rich Turner](http://learning.eng.cam.ac.uk/Public/Turner/WebHome).
+I'm a researcher at Invenia labs.
+Until very recently I was a PhD student in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/) at Cambridge, supervised by [Rich Turner](http://learning.eng.cam.ac.uk/Public/Turner/WebHome).
 I'm generally interested in probabilistic modelling and (approximate) inference, how Gaussian processes should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
 
 The above feeds directly into my work on probabilistic machine learning in climate science, which addresses combining the predictions of ensembles of GCMs in a sensible way, and the requirements that this task places on statistical weather modelling.
