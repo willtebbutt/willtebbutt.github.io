@@ -23,3 +23,11 @@ Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
+
+\newcommand{\innerprod}[3]{\langle #1 , #2 \rangle_{#3}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\H}{\mathcal{H}}
+\newcommand{\K}{\mathbf{K}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\v}[1]{\mathbf{#1}}
+\newcommand{\T}{\intercal}
