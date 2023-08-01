@@ -1,10 +1,7 @@
 # About
 
-I'm a researcher in Cambridge.
-I previously was a PhD student in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/) at Cambridge, supervised by [Rich Turner](http://learning.eng.cam.ac.uk/Public/Turner/WebHome).
-I'm generally interested in probabilistic modelling and (approximate) inference, how Gaussian processes should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
-
-The above feeds directly into my work on probabilistic machine learning in climate science, which addresses combining the predictions of ensembles of GCMs in a sensible way, and the requirements that this task places on statistical weather modelling.
+I'm now a research associated in the machine learning group in Cambridge, working with Hong Ge on algorithmic differentiation in the Julia programming language.
+Historically I've worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
 
 
 # Research Highlights
@@ -65,3 +62,9 @@ JuliaCon 2019: [talk](https://www.youtube.com/watch?v=OO3BBkGEMV8) and [slides](
 This work implements SDE approximations to GPs, which dramatically accelerates inference and learning for models involving long time horizons. This is notable because the standard pseudo-point approximations fail in these scenarios.
 
 JuliaCon 2020: [talk](https://www.youtube.com/watch?v=dysmEpX1QoE) and [slides](resources/juliacon-2020.pdf).
+
+## [JuliaGaussianProcesses](https://github.com/JuliaGaussianProcesses/)
+
+The above two packages have been incorporated into the JuliaGPs organisation, which aims to unify a range of packages for GPs in the Julia ecosystem, and to provide strong foundations for research into GPs, and their use in practice.
+
+JuliaCon 2021: [talk](https://www.youtube.com/watch?v=CLQlxkjTVZU)
