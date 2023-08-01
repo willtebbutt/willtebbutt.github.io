@@ -1,6 +1,6 @@
 # About
 
-I'm now a research associated in the machine learning group in Cambridge, working with Hong Ge on algorithmic differentiation in the Julia programming language.
+I'm now a research associate in the machine learning group in Cambridge, working with Hong Ge on algorithmic differentiation in the Julia programming language.
 Historically I've worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
 
 
@@ -67,4 +67,4 @@ JuliaCon 2020: [talk](https://www.youtube.com/watch?v=dysmEpX1QoE) and [slides](
 
 The above two packages have been incorporated into the JuliaGPs organisation, which aims to unify a range of packages for GPs in the Julia ecosystem, and to provide strong foundations for research into GPs, and their use in practice.
 
-JuliaCon 2021: [talk](https://www.youtube.com/watch?v=CLQlxkjTVZU)
+JuliaCon 2022: [talk](https://www.youtube.com/watch?v=CLQlxkjTVZU)
