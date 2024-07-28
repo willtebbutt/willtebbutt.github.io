@@ -1,7 +1,8 @@
 # About
 
-I'm now a research associate in the machine learning group in Cambridge, working with Hong Ge on algorithmic differentiation in the Julia programming language.
-Historically I've worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
+I'm a research associate at The Alan Turing Institute, working on probabilistic programming.
+During my PhD with Rich Turner, in the machine learning group (MLG) at Cambridge, I worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
+Subsequently I worked on algorithmic differentiation in the Julia programming language with Hong Ge, also in the MLG.
 
 
 # Research Highlights
@@ -49,6 +50,10 @@ Implementations available in [Python](https://github.com/wesselb/oilmm) and [Jul
 
 
 # Software
+
+## [Tapir.jl](https://github.com/compintell/Tapir.jl)
+
+Tapir.jl is an AD for the Julia language, written entirely in the Julia programming language.
 
 ## [Stheno.jl](https://github.com/willtebbutt/Stheno.jl)
 
