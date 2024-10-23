@@ -4,6 +4,7 @@ I'm a research associate at The Alan Turing Institute, working on probabilistic 
 During my PhD with Rich Turner, in the machine learning group (MLG) at Cambridge, I worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
 Subsequently I worked on algorithmic differentiation in the Julia programming language with Hong Ge, also in the MLG.
 
+Much of my work can be found on my [github](https://github.com/willtebbutt/).
 
 # Research Highlights
 
@@ -53,7 +54,7 @@ Implementations available in [Python](https://github.com/wesselb/oilmm) and [Jul
 
 ## [Mooncake.jl](https://github.com/compintell/Mooncake.jl)
 
-Mooncake.jl is an AD for the Julia language that Hong and I have created.
+[Mooncake.jl](https://github.com/compintell/Mooncake.jl) is an AD for the Julia language that Hong and I have created.
 It is written entirely in the Julia programming language, while supporting much more of the language and being much more performant than any previous AD written in this way.
 
 ## [Stheno.jl](https://github.com/willtebbutt/Stheno.jl)
