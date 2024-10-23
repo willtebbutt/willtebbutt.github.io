@@ -51,9 +51,10 @@ Implementations available in [Python](https://github.com/wesselb/oilmm) and [Jul
 
 # Software
 
-## [Tapir.jl](https://github.com/compintell/Tapir.jl)
+## [Mooncake.jl](https://github.com/compintell/Mooncake.jl)
 
-Tapir.jl is an AD for the Julia language, written entirely in the Julia programming language.
+Mooncake.jl is an AD for the Julia language that Hong and I have created.
+It is written entirely in the Julia programming language, while supporting much more of the language and being much more performant than any previous AD written in this way.
 
 ## [Stheno.jl](https://github.com/willtebbutt/Stheno.jl)
 
