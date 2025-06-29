@@ -1,8 +1,8 @@
 # About
 
-I'm a research associate at The Alan Turing Institute, working on probabilistic programming.
+I'm currently a research associate at The Alan Turing Institute, working on end-to-end machine-learning weather forecasting.
 During my PhD with Rich Turner, in the machine learning group (MLG) at Cambridge, I worked on approximate inference in Gaussian processes, how Gaussian processes they should feature in probabilistic programming, and how to scale GPs for large time series and spatio-temporal problems.
-Subsequently I worked on algorithmic differentiation in the Julia programming language with Hong Ge, also in the MLG.
+Subsequently I worked on algorithmic differentiation in the Julia programming language with Hong Ge, in the MLG, and at the Alan Turing Institute.
 
 Much of my work can be found on my [github](https://github.com/willtebbutt/).
 
